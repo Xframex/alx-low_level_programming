@@ -1,5 +1,6 @@
+#include <stdio.h>
 #include "main.h"
-#include<stdio.h>
+
 
 /**
  * main -  prints _putchar, followed by a new line
@@ -8,11 +9,10 @@
 
 int main(void)
 {
-    char str[20] = "_putchar";
+    char str[20] = "_putchar\n";
 
     // puts is used to print the string char array
     puts(str);
 
     return 0;
 }
-
