@@ -1,1 +1,1 @@
-low dev level
+pointers arrays
