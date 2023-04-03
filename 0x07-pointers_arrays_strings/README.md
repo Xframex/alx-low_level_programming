@@ -1,0 +1,1 @@
+ more_pointers_strings
