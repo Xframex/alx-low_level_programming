@@ -1,1 +1,1 @@
-pointers arrays
+function pointers
