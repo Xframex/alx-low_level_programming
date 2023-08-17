@@ -3,6 +3,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 16b39104e8d1fbf3d2cdbd3a1167ffe928cb3148
 typedef struct dlistint_s
 {
 	int n;
