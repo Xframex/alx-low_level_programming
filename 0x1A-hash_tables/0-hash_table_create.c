@@ -1,13 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "hash_tables.h"
 
 /**
- * hash_table_create - Function that cretes an empty hash table 
+ * hash_table_create - Function that creates an empty hash table
  * @size: Size of the array to be created inside table
- * Return: Pointe to the hash table (
-Success), NUll if fails
+ * Return: Pointe to the hash table (Success), NUll if fails
  */
 hash_table_t *hash_table_create(unsigned long int size)
 {
@@ -27,4 +23,3 @@ hash_table_t *hash_table_create(unsigned long int size)
 	}
 	return (ht);
 }
-
