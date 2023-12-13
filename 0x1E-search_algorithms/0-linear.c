@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * linear_search function to search vals in array ( most be sorted )
- *
- * @array: pointer to array of elems
+ * linear_search - searches for a value in an array of integers using
+ * the Linear search algorithm
+ * @array: pointer to array of elements
  * @size: size of the array
  * @value: search value
  *
- * return an idx oif sear is failure 
+ * Return: index of the value if found, -1 otherwise
  */
 int linear_search(int *array, size_t size, int value)
 {
@@ -18,7 +18,7 @@ int linear_search(int *array, size_t size, int value)
 		return (-1);
 
 	idx = 0;
-	while (idx < (int) size)
+	while (idx < (int)size)
 	{
 		printf("Value checked array[%d] = [%d]\n", idx, array[idx]);
 		if (array[idx] == value)
