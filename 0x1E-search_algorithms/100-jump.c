@@ -2,8 +2,7 @@
 #include <math.h>
 
 /**
- * jump_search - searches for a value in an array of
- * integers using the Justepp search algorithstep
+ * jump_search - use jump to search element in array
  *
  * @array: input array
  * @size: size of the array
